@@ -1,0 +1,22 @@
+Instructions to run tests and binary and to quit finally
+____________________________________________________________
+1. To Run the test:
+    $ go test ./...
+
+2. To build
+   $cd cmd/lcp_trie
+   $go build
+ 
+   **lcp_trie**  will be the binary file created
+
+3. To run the binary
+    a. The given sample prefixes file is copied into
+       <truecaller>/cmd/lcp_trie/
+    b. run by supplying external file
+       $./lcp_trie <sample_file>
+    c. when not supplied, "sample_prefixes.txt" will be used
+       to build the prefixes trie
+
+4. To quit:
+   a. ^c character will quit
+   b. "quit" string entered when asked for matching string
